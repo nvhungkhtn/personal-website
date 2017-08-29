@@ -2,7 +2,7 @@ body {
     font-size: 12px;
     font-family: 'Noto Serif', serif;
     color: rgba(0,0,0,0.9);
-    line-height: 1.5em;
+    line-height: 1.6em;
     letter-spacing: 0.3px;
     min-width: 320px;
     background: #ffffff;
@@ -30,6 +30,10 @@ a:hover {
     color: rgba(0,0,0,0.5);
     font-style: italic;
     margin-top: 3px;
+}
+
+.header .tagline span {
+    font-style: normal;
 }
 
 .header .social-link {
@@ -61,14 +65,34 @@ a:hover {
     border-bottom: 2px solid rgba(0,0,0,0.9);
 }
 
+.article {
+    margin-top: 50px;
+}
+
 .article .title {
     font-style: italic;
-    font-size: 24px;
+    font-size: 18px;
     margin: 0;
 }
 
 .article .content {
     margin-top: 20px;
+}
+
+img.full-width {
+    display: block;
+    width: 90%;
+    height: auto;
+    border-radius: 1px;
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+
+.img-caption {
+    position: relative;
+    bottom: 20px;
+    font-style: italic;
+    color: rgba(0,0,0,0.5);
 }
 
 .article-list {
@@ -92,7 +116,7 @@ a:hover {
 }
 
 .main-content {
-    margin-top: 50px;
+
 }
 
 .footer {
