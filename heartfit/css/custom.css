@@ -1,0 +1,424 @@
+/*!
+ * Start Bootstrap - Modern Business (https://startbootstrap.com/template-overviews/modern-business)
+ * Copyright 2013-2017 Start Bootstrap
+ * Licensed under MIT (https://github.com/BlackrockDigital/startbootstrap-logomodern-business-nav/blob/master/LICENSE)
+ */
+
+body {
+  padding-top: 54px;
+}
+@media (min-width: 992px) {
+  body {
+    padding-top: 56px;
+  }
+}
+.carousel-item {
+  height: 65vh;
+  min-height: 300px;
+  background: no-repeat center center scroll;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+.portfolio-item {
+  margin-bottom: 30px;
+}
+
+.nav-style {
+	background-color: #fff !important;
+    border-bottom: 1px solid #20b97b;
+    border-top: 3px solid #20b97b;
+}
+.call-info {
+	background-color: #20b97b;
+    border-radius: 8px;
+    padding: 10px;
+}
+.home-logo {
+	width: 150px;
+    height: auto;
+}
+.header-img {
+	width: 100%;
+	margin-top: 3.5rem!important;
+	margin-bottom: 1.5rem!important;
+}
+.img-menu {
+    padding-right: 1.5rem;
+    border-right: 1px solid #20b97b;
+}
+.img-menu-first {
+	padding-left: 1.5rem;
+    border-left: 1px solid #20b97b;
+}
+.call-img {
+	width: 20px;
+}
+.call-num {
+	font-weight: 500;
+	color: white;
+}
+.top-title-01 {
+	padding: 10px 0;
+    border-bottom: 1px solid #20b97b;
+}
+.top-title-02 {
+	text-align: center;
+}
+.subtitle {
+	background-color: #fbffe8;
+	border: solid #8fdcbd;
+    border-radius: 10px;
+}
+.img-subtitle {
+	text-align: center;
+	margin-bottom: 30px;
+}
+.img-footer {
+	height: 46px;
+	background-image: url("../images/footer_city-svg.png");
+}
+.img-car {
+	position: relative;
+    margin-top: -24px;
+    text-align: right;
+}
+.bg-footer {
+	padding-top: 15px;
+	padding-bottom: 15px;
+	background-color: #20b97b;
+}
+.foorter-text {
+	font-size: 12px;
+}
+.navbar {
+	padding: 0;
+}
+@media screen and (max-width: 1200px) {
+	.img-menu {
+		padding-right: 0.5rem;
+	}
+	.img-menu-first {
+		padding-left: 0.5rem;
+	}
+	.navbar-expand-lg .navbar-nav .nav-link {
+		padding-right: .3rem;
+		padding-left: .3rem;
+	}
+}
+@media screen and (max-width: 992px) {
+	.img-menu-first {
+		border-left: 1px solid #ffffff; 
+		padding-left: 0;
+	}
+	.img-menu {
+		border-right: 1px solid #ffffff; 
+	}
+	.navbar-nav .nav-link {
+		border-bottom: 1px solid #20b97b;
+	}
+	.call-info {
+		margin-top: 0px;
+		margin-right: 5px;
+	}
+	.navbar {
+		padding: .5rem 1rem;
+	}    
+}
+@media screen and (max-width: 410px) {
+	.navbar {
+		padding: .5rem 1rem;
+	}
+	.home-logo {
+		width: 120px;
+	}
+}
+@media screen and (max-width: 380px) {
+	.home-logo {
+		width: 60px;
+	}
+}
+/* price style */
+.price .line-green {
+	margin: -18px 0;
+    border-bottom: 1px solid #20b97b;
+}
+.price .line-orange {
+	margin: -18px 0;
+    border-bottom: 1px solid #ff9e73;
+}
+.price .line-blue {
+	margin: -18px 0;
+    border-bottom: 1px solid #0069d0;
+}
+.price .title-green {
+	padding-bottom: 40px;
+    font-weight: 600;
+    font-size: 26px;
+    color: #20b97b;
+}
+.price .title-orange {
+	padding-bottom: 40px;
+    font-weight: 600;
+    font-size: 26px;
+    color: #ff9e73;
+}
+.price .table-price {
+	font-weight: 600;
+}
+.price .item-title {
+	padding: 12px 0;
+}
+.price .contact-green {
+    border: solid #8fdcbd;
+    border-radius: 10px;
+}
+.price .contact-blue {
+    border: solid #80bde7;
+    border-radius: 10px;
+}
+.price .contact-red {
+    border: solid #ffa096;
+    border-radius: 10px;
+}
+.price .contact-orange {
+    border: solid #ff9e73;
+    border-radius: 10px;
+}
+@media screen and (-ms-high-contrast: active), (-ms-high-contrast: none) {  
+   /* IE10+ specific styles go here */  
+   .price .contact-green, .price .contact-blue, .price .contact-red, .price .contact-orange {
+		max-height: 190px;
+	}
+}
+.price .img-fluid-tel {
+    display: block;
+	height: 21px;
+	width: auto;
+	margin: auto;
+	margin-bottom: 20px;
+}
+.price .img-fluid-fax {
+	display: block;
+	height: 21px;
+	width: auto;
+	margin: auto;
+	margin-bottom: 20px;
+}
+.price .img-fluid-email {
+	display: block;
+	height: 21px;
+	width: auto;
+	margin: auto;
+	margin-bottom: 20px;
+}
+.price .img-fluid-qr {
+	display: block;
+	height: 21px;
+	width: auto;
+	margin: auto;
+	margin-bottom: 20px;
+}
+.price .img-fluid-icon {
+    max-width: 20%;
+    height: 80px;
+}
+.price .contain {
+    text-align: center;
+}
+.price .contain .infos {
+    padding-left: 20px;
+    font-size: 40px;
+    font-weight: 600;
+}
+.price .img-fluid-ext {
+    max-width: 75%;
+    height: auto;
+}
+.price .fax-info {
+	font-size: 22px;
+    font-weight: 500;
+}
+.price .table-price .col-3 {
+	text-align: right;
+}
+.price .img-waribiki {
+    max-width: 100%;
+    height: auto;
+}
+@media screen and (max-width: 1200px) {
+	.price .contain .infos {
+		font-size: 25px;
+	}
+}
+@media screen and (max-width: 992px) {
+	.price .contain .infos {
+		font-size: 25px;
+	}
+}
+@media screen and (max-width: 800px) {
+	.img-fluid {
+		max-width: 70%;
+	}
+}
+@media screen and (max-width: 500px) {
+	.mt-3 {
+		margin-top: 0px!important;
+	}
+	.img-fluid {
+		max-width: 60%;
+	}
+	.price .img-fluid-icon {
+		height: auto;
+		max-width: 15%;
+	}
+	.img-subtitle {
+		margin-bottom: 10px;
+	}
+}
+@media screen and (max-width: 380px) {
+	.price .contain .infos {
+		font-size: 22px;
+	}
+	.price .img-fluid-icon {
+		max-width: 20%;
+		height: auto;
+	}
+	.price .title-green {
+		font-size: 22px;
+	} 
+	.price .title-orange {
+		font-size: 22px;
+	} 
+}
+@media screen and (max-width: 335px) {
+	.price .contain .infos {
+		font-size: 20px;
+	}
+	.price .title-green {
+		font-size: 20px;
+	}
+	.price .title-orange {
+		font-size: 20px;
+	}
+}
+/* faq style */
+.faq .question {
+	width: 60px;
+    padding: 8px 10px;
+    background: #20b97b;
+    text-align: center;
+    border-radius: 25px;
+}
+.faq .answer {
+	width: 60px;
+    padding: 8px 22px;
+    background: #0069d0;
+    text-align: center;
+    border-radius: 25px;
+}
+.faq .question-ext {
+	padding: 8px 16px;
+}
+.faq .qa-text {
+	padding-left: 80px;
+    font-size: 20px;
+    font-weight: 500;
+	margin-top: -28px;
+}
+.faq .question .qa-info, .faq .answer .qa-info {
+	color: white;
+    font-weight: 400;
+    font-size: 20px;
+}
+.faq .qa-display {
+	display: inline-flex;
+}
+/* reservation style */
+.reservation .span-text {
+	display: list-item;
+}
+.reservation .margin-none {
+	margin-bottom: 0px;
+}
+/* privacy style */
+.privacy .list-title {
+    padding-left: 50px;
+    font-size: 20px;
+    font-weight: bold;
+    margin-top: -28px;
+}
+.privacy .list-content {
+    padding-left: 50px;
+    font-size: 20px;
+    font-weight: 500;
+}
+/* profile style */
+.profile .content-brown {
+    border: solid #dac892;
+    border-radius: 10px;
+}
+.profile .img-profile-01 {
+    max-width: 15%;
+    height: auto;
+}
+.profile .contain-01 {
+	text-align: center;
+    font-weight: 800;
+    font-size: 2.0em;
+}
+.profile .contain-02 {
+	font-weight: 400;
+    font-size: 1.2em;
+}
+.profile .man-summary {
+	font-size: 1.3em;
+}
+.profile .self-title {
+	font-weight: 800;
+    font-size: 1.5em;
+}
+.profile .table-profile .col-lg-4, .profile .table-profile .col-lg-8 {
+	padding: 20px 50px; 
+    border-right: 1px solid #c3a54d;
+    border-bottom: 1px solid #c3a54d;
+}
+.profile .table-profile .col-lg-4 {
+	background: #f0e8d3;
+	display: flex;
+	font-weight: bold;
+    align-items: center;
+	justify-content: center;
+}
+.profile .table-profile .col-lg-10 {
+	border-top: 1px solid #c3a54d;
+    border-left: 1px solid #c3a54d;
+}
+@media screen and (max-width: 992px) {
+	.profile .table-profile .col-lg-4, .profile .table-profile .col-lg-8 {
+		border-right: 0;
+		border-bottom: 0;
+		padding: 14px 20px;
+	}
+	.profile .table-profile .col-lg-10 {
+		border-top: 0;
+		border-left: 0;
+	}
+	.profile .table-profile .col-lg-4 {
+		justify-content: left;
+	}
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
